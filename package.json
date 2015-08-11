@@ -1,0 +1,33 @@
+{
+  "name": "gulp-walc",
+  "version": "1.0.0",
+  "description": "\"Removes 'console' or 'alert' functions in your scripts\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomathieu/gulp-walc.git"
+  },
+  "keywords": [
+    "console",
+    "warning",
+    "log",
+    "alert",
+    "remove",
+    "delete",
+    "comment"
+  ],
+  "author": "hellomathieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellomathieu/gulp-walc/issues"
+  },
+  "homepage": "https://github.com/hellomathieu/gulp-walc#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0",
+    "walc": "^1.4.3"
+  }
+}
