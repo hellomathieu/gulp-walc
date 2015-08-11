@@ -15,19 +15,19 @@ var walc = require('gulp-walc');
 
 gulp.task('clean', function() {
   return gulp.src('app/*.js')
-    .pipe(walc())
+    .pipe(walc({console:'comment'}))
     .pipe(gulp.dest('dist'));
 });
 ```
 
 ## Options
 
-- `console`
-  Pass `ignore` or `comment`, default is `remove`
+- `console` :
+      Pass `'ignore'` or `'comment'`, default is `'remove'`.
 
-- `alert`
-  Idem `console`
+- `alert` :
+      Idem `console`.
 
 ## Notes
 
-If no option object is passed, `remove` action will be executed
+If no options object is passed, `'remove'` action will be executed.
