@@ -11,6 +11,7 @@
     "url": "git+https://github.com/hellomathieu/gulp-walc.git"
   },
   "keywords": [
+    "gulpplugin",
     "console",
     "warning",
     "log",
